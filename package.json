@@ -1,0 +1,10 @@
+{
+  "name": "express-fileupload-scalajs",
+  "version": "0.3.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-fileupload": "0.0.7",
+    "source-map": "^0.5.6"
+  }
+}
