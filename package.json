@@ -1,6 +1,6 @@
 {
-  "name": "express-fileupload-scalajs",
-  "version": "0.3.1",
+  "name": "express-fileupload-sjs",
+  "version": "0.0.7",
   "private": true,
   "dependencies": {
     "express": "^4.14.1",
