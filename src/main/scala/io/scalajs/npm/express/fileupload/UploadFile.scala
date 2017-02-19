@@ -2,7 +2,7 @@ package io.scalajs.npm.express.fileupload
 
 import io.scalajs.nodejs.buffer.Buffer
 import io.scalajs.nodejs.fs.FileIOError
-import io.scalajs.util.ScalaJsHelper._
+import io.scalajs.util.PromiseHelper._
 
 import scala.concurrent.Promise
 import scala.scalajs.js
@@ -64,7 +64,7 @@ object UploadFile {
   implicit class UploadFileExtensions(val file: UploadFile) extends AnyVal {
 
     @inline
-    def mvFuture(path: String): Promise[Unit] = futureCallbackE0[FileIOError](file.mv(path, _))
+    def mvFuture(path: String): Promise[Unit] = promiseWithError0[FileIOError](file.mv(path, _))
 
   }
 
