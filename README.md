@@ -8,7 +8,6 @@ Simple express middleware for uploading files.
 
 ### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
@@ -60,7 +59,7 @@ app.post("/upload", (req: Request with UploadedFiles, res: Response) => {
 To add the `ExpressFileUpload` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "express-fileupload" % "0.0.7"
+libraryDependencies += "io.scalajs.npm" %%% "express-fileupload" % "0.0.7-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
