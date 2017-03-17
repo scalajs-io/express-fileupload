@@ -1,4 +1,4 @@
-ExpressFileUpload API for Scala.js
+express-fileupload API for Scala.js
 ================================
 [express-fileupload](https://www.npmjs.com/package/express-fileupload) - Simple express file upload middleware that wraps around connect-busboy.
 
@@ -56,10 +56,10 @@ app.post("/upload", (req: Request with UploadedFiles, res: Response) => {
 
 ### Artifacts and Resolvers
 
-To add the `ExpressFileUpload` binding to your project, add the following to your build.sbt:  
+To add the `express-fileupload` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "express-fileupload" % "0.0.7-2"
+libraryDependencies += "io.scalajs.npm" %%% "express-fileupload" % "0.0.7-3"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:

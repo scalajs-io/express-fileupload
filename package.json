@@ -1,6 +1,6 @@
 {
   "name": "express-fileupload-sjs",
-  "version": "0.0.7-2",
+  "version": "0.0.7-3",
   "private": true,
   "dependencies": {
     "express": "^4.14.1",
