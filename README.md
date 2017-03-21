@@ -59,7 +59,7 @@ app.post("/upload", (req: Request with UploadedFiles, res: Response) => {
 To add the `express-fileupload` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "express-fileupload" % "0.0.7-3"
+libraryDependencies += "io.scalajs.npm" %%% "express-fileupload" % "0.0.7-4"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
