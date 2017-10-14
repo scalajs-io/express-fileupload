@@ -1,7 +1,7 @@
 package io.scalajs.npm.express.fileupload
 
 import io.scalajs.nodejs.buffer.Buffer
-import io.scalajs.nodejs.fs.FileIOError
+import io.scalajs.nodejs.FileIOError
 import io.scalajs.util.PromiseHelper._
 
 import scala.concurrent.Future
